@@ -1,0 +1,25 @@
+{
+  "name": "bootstrap-porfolio1",
+  "version": "1.0.0",
+  "description": "for bootstrap project",
+  "main": "index.html",
+  "homepage": "http//jijizaza999.github.io/SimpleProject",
+  "dependencies": {
+    "bootstrap": "^4.5.0",
+    "bootstrap-social": "^5.1.1",
+    "mbd": "^0.1.2",
+    "scrollmagic": "^2.0.7"
+  },
+  "devDependencies": {
+    "gh-pages": "^3.1.0",
+    "node-sass": "^4.14.1"
+  },
+  "scripts": {
+    "scss": "node-sass -o css/ css/",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "predeploy":"npm run build",
+    "deploy":"gh-pages -d build"
+  },
+  "author": "",
+  "license": "ISC"
+}
