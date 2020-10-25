@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "for bootstrap project",
   "main": "index.html",
-  "homepage": "http//jijizaza999.github.io/SimpleProject",
+  "homepage": "https://jijizaza999.github.io/SimpleProject",
   "dependencies": {
     "bootstrap": "^4.5.0",
     "bootstrap-social": "^5.1.1",
