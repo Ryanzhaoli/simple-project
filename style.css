@@ -326,10 +326,10 @@ header .row .sliding-words {
           animation-duration: 10s;
 }
 
-.angular {
+.mongoDB {
   width: 65%;
-  -webkit-animation: angular 2s infinite 2s;
-          animation: angular 2s infinite 2s;
+  -webkit-animation: mongoDB 2s infinite 2s;
+          animation: mongoDB 2s infinite 2s;
   -webkit-animation-duration: 10s;
           animation-duration: 10s;
 }
@@ -342,10 +342,10 @@ header .row .sliding-words {
           animation-duration: 10s;
 }
 
-.php {
+.express {
   width: 75%;
-  -webkit-animation: php 2s infinite 2s;
-          animation: php 2s infinite 2s;
+  -webkit-animation: express 2s infinite 2s;
+          animation: express 2s infinite 2s;
   -webkit-animation-duration: 10s;
           animation-duration: 10s;
 }
@@ -412,25 +412,25 @@ header .row .sliding-words {
   }
 }
 
+@-webkit-keyframes express {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 90%;
+  }
+}
+
+@keyframes express {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 90%;
+  }
+}
+
 @-webkit-keyframes reactjs {
-  0% {
-    width: 0%;
-  }
-  100% {
-    width: 90%;
-  }
-}
-
-@keyframes reactjs {
-  0% {
-    width: 0%;
-  }
-  100% {
-    width: 90%;
-  }
-}
-
-@-webkit-keyframes angular {
   0% {
     width: 0%;
   }
@@ -439,7 +439,7 @@ header .row .sliding-words {
   }
 }
 
-@keyframes angular {
+@keyframes reactjs {
   0% {
     width: 0%;
   }
@@ -466,7 +466,7 @@ header .row .sliding-words {
   }
 }
 
-@-webkit-keyframes php {
+@-webkit-keyframes mongoDB {
   0% {
     width: 0%;
   }
@@ -475,7 +475,7 @@ header .row .sliding-words {
   }
 }
 
-@keyframes php {
+@keyframes mongoDB {
   0% {
     width: 0%;
   }
