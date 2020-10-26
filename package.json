@@ -7,6 +7,7 @@
   "dependencies": {
     "bootstrap": "^4.5.0",
     "bootstrap-social": "^5.1.1",
+    "font-awesome": "^4.7.0",
     "mbd": "^0.1.2",
     "scrollmagic": "^2.0.7"
   },
